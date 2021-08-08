@@ -3,5 +3,6 @@ from . import views
 
 app_name = 'jikanwari'
 urlpatterns = [
-    path('top_page/', views.top_page, name='top_page')
+    path('top_page/', views.top_page, name='top_page'),
+    path('index/', views.index, name='index'),
 ]
